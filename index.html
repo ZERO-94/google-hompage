@@ -1,9 +1,36 @@
 <!DOCTYPE html>
+<style>
+    .main-thing {
+        position : absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .input-user {
+        position: absolute;
+        background-color: white;
+        width: 500px;
+        height: 40px;
+        left : -35%;
+        border : 1px solid rgb(230, 230, 230);
+        border-radius : 25px;
+        
+    }
+
+    .main-thing div:hover {
+        box-shadow: 0 0px 5px rgba(0,0,0,0.19);
+    }
+</style>
 <html>
     <head></head>
     <body>
         <main>
-            <h1>Hello world</h1>
+            <div class="main-thing">
+                <img class = "logo" src="google-logo.png" alt="google logo">
+                <br>
+                <div class="input-user">
+                </div>
         </main>
     </body>
 </html>
